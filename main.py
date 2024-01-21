@@ -112,7 +112,7 @@ def main():
   for i in range(cellsRow):
     for j in range(cellsCol):
       if state[i][j] == "0":
-        print(" ", end = "")
+        print("_", end = "")
       else:
         print("X", end = "")
     print("")
